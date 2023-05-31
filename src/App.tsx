@@ -9,7 +9,10 @@ import {
   Image,
 } from 'react-native';
 
-import CodePush, {CodePushOptions} from 'react-native-code-push';
+import imagem from './imagem.jpeg';
+
+import CodePushApp from './Codepush';
+// import CodePush, {CodePushOptions} from 'react-native-code-push';
 
 // jeito easy
 // const codePushOptions: CodePushOptions = {
@@ -104,13 +107,15 @@ const Home = () => {
       />
       <Text style={styles.title}>Code Push</Text>
 
-      <TouchableOpacity onPress={onButtonPress} style={styles.button}>
+      {/* <TouchableOpacity onPress={onButtonPress} style={styles.button}>
         <Text style={styles.buttonText}>Checar atualização</Text>
       </TouchableOpacity>
 
       <TouchableOpacity onPress={onOpenDialog} style={styles.button}>
         <Text style={styles.buttonText}>Agora tem um dialog!?</Text>
-      </TouchableOpacity>
+      </TouchableOpacity> */}
+
+      <Image style={styles.image} source={imagem} />
 
       {open && <Dialog closeDialog={setOpen} />}
     </SafeAreaView>
@@ -165,4 +170,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default CodePush(App);
+export default CodePushApp(App);
