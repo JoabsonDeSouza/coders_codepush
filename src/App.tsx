@@ -1,8 +1,12 @@
 import React from 'react';
-import Home from './pages/Home';
+// import Facil from './Facil';
+// import Medio from './Medio';
+import Dificil from './Dificil';
 
 const App = () => {
-  return <Home />;
+  // return <Facil />;
+  // return <Medio />;
+  return <Dificil />;
 };
 
 export default App;

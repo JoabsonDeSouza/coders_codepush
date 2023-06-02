@@ -7,11 +7,14 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "codepush-staging-ios": "coloca aqui teu script",
+    "codepush-staging-android": "coloca aqui teu script"
   },
   "dependencies": {
     "react": "18.2.0",
-    "react-native": "0.71.8"
+    "react-native": "0.71.8",
+    "react-native-code-push": "^8.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
