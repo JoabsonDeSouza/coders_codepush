@@ -8,8 +8,8 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
-    "codepush-staging-ios": "appcenter codepush release-react -a joabsondesouza/Codersclub -d Staging",
-    "codepush-staging-android": "appcenter codepush release-react -a joabsondesouza/Codersclub-1 -d Staging"
+    "codepush-staging-ios": "coloca aqui teu script",
+    "codepush-staging-android": "coloca aqui teu script"
   },
   "dependencies": {
     "react": "18.2.0",

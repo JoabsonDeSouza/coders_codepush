@@ -123,17 +123,17 @@ android {
         debug {
             signingConfig signingConfigs.debug
             debuggable true
-            resValue "string", "CodePushDeploymentKey", '""'
+            resValue "string", "CodePushDeploymentKey", '"COLOCA AQUI A KEY DE STAGING SE QUISER"'
         }
 
         releaseStaging {
           signingConfig signingConfigs.debug
-          resValue "string", "CodePushDeploymentKey", '"9oAeoRRA3ksUHKm36ihffkVPKzt11kaVlCQJ1"'
+          resValue "string", "CodePushDeploymentKey", '"COLOCA AQUI A KEY DE STAGING"'
           matchingFallbacks = ['release']
         }
 
         release {
-          resValue "string", "CodePushDeploymentKey", '"VSvSgH1lmLbW4JDfFDsuQJjZXldLhOTVWlO4t"'
+          resValue "string", "CodePushDeploymentKey", '"COLOCA AQUI A KEY DE PROD"'
           minifyEnabled enableProguardInReleaseBuilds
           proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
           signingConfig signingConfigs.debug
